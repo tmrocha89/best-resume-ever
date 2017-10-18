@@ -1,0 +1,9 @@
+version: '2'
+services:
+  resume:
+    build: .
+    container_name: "best_resume"
+    volumes:
+      - .:/app
+    ports:
+      - 8181:8181
